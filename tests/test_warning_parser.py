@@ -1,4 +1,4 @@
-from src.warnings_parser import get_warnings
+from src.warning_parser import get_warnings
 
 
 def test_gcc():

@@ -10,14 +10,14 @@ It supports any compilers using the standard `file_path:line:column: warning: me
 ## Install
 
 ```bash
-pip install warnings-parser
+pip install warning-parser
 ```
 
 ## Usage
 
 usage example to generate bitbucket annotations:
 ```python
-from warnings_parser import get_warnings
+from warning_parser import get_warnings
 
 warnings = get_warnings("/path/to/gcc_output.txt", "gcc")
 warnings = warnings.union(get_warnings("/path/to/clang_output.txt", "clang"))

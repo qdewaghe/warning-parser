@@ -5,9 +5,9 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="warnings-parser",
-    version="0.0.1",
-    url="https://github.com/qdewaghe/warnings-parser",
+    name="warning-parser",
+    version="0.0.2",
+    url="https://github.com/qdewaghe/warning-parser",
     author="Quentin Dewaghe",
     author_email="q.dewaghe@gmail.com",
     description="Parses compilers' outputs",
