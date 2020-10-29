@@ -1,0 +1,4 @@
+./test/test.cpp: In function ‘int main()’:
+./test/test.cpp:6:7: warning: unused variable ‘i’ [-Wunused-variable]
+   int i;  
+       ^

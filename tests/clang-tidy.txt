@@ -1,0 +1,9 @@
+2 warnings generated.
+
+/full/path/test/test.cpp:6:7: warning: unused variable 'i' [clang-diagnostic-unused-variable]
+  int i; 
+      ^
+/full/path/test/test.cpp:6:7: warning: variable 'i' is not initialized [cppcoreguidelines-init-variables]
+  int i;  
+      ^
+        = 0
